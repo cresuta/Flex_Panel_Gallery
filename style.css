@@ -1,0 +1,22 @@
+html {
+    box-sizing: border-box;
+    font-family: 'Yomogi', cursive;
+    font-size: 20px;
+    font-weight: 200;
+    background: #ffc600;
+}
+
+body {
+    margin: 0;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+.panels {
+    min-height: 100vh;
+    overflow: hidden;
+    display: flex;
+    justify-content: space-evenly;
+}
